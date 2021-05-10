@@ -2,7 +2,7 @@
 
 function palindrom(params) {
     
-    let temp_1 = params.split("").reverse().join("").replace(',','').toLowerCase()
+    let temp_1 = params.split("").reverse().join("").toLowerCase()
     console.log(params)
     if (temp_1===params.toLocaleLowerCase()){
         console.log("palindrom")
